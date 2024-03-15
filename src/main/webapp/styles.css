@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: Times New Roman, sans-serif;
+    background-color: #003663; /* Light blue background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #dddddd; /* White background color */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 10px;
+    color: #333; /* Dark gray text color */
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ff6633;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6cc070;
+}
+
+input[type="range"] {
+    width: 40%;
+    margin-top: 5px;
+    background-color: #e0e0e0; /* Light gray slider background color */
+}
+.checkboxes{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:flex-start;
+	margin-left : 30%;
+	gap:15px;
+}
+.characters{
+	margin-top:15px;
+}
+.generated-password{margin-top:15px}
